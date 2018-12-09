@@ -1,0 +1,11 @@
+{
+  "name": "brewtoad-export",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matias Korhonen",
+  "license": "MIT",
+  "dependencies": {
+    "parameterize": "^0.1.0",
+    "puppeteer": "^1.11.0"
+  }
+}
