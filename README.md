@@ -18,7 +18,9 @@ yarn install
 node index.js PROFILE_URL [USERNAME] [PASSWORD]
 ```
 
-Replace `PROFILE_URL` with the URL to your recipes on Brewtoad (e.g. <https://www.brewtoad.com/users/45285/recipes>). The username and password are _optional_. if all your recipes are public you don't need to sign in.
+Replace `PROFILE_URL` with the URL to your recipes on Brewtoad (e.g. <https://www.brewtoad.com/users/45285/recipes>).
+
+`USERNAME` and `PASSWORD` are _optional_. If all your recipes are public you don't need to sign in.
 
 ### Examples
 
