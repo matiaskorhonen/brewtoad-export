@@ -5,6 +5,7 @@
   "author": "Matias Korhonen",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "parameterize": "^0.1.0",
     "puppeteer": "^1.11.0"
   }

@@ -25,3 +25,4 @@ Replace `PROFILE_URL` with the URL to your recipes on Brewtoad (e.g. <https://ww
 - Doesn't handle any sort of pagination on the recipes page (I don't have enough recipes for that)
 - There's no error handling, if something explodes the script stops
 - It worked for me as is, it might explode for whatever reason in your case
+- Brewtoad is unreliable now, things may or may not work
