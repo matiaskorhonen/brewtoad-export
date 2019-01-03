@@ -15,10 +15,20 @@ First clone the repo, then:
 
 ```
 yarn install
-node index.js PROFILE_URL
+node index.js PROFILE_URL [USERNAME] [PASSWORD]
 ```
 
-Replace `PROFILE_URL` with the URL to your recipes on Brewtoad (e.g. <https://www.brewtoad.com/users/45285/recipes>).
+Replace `PROFILE_URL` with the URL to your recipes on Brewtoad (e.g. <https://www.brewtoad.com/users/45285/recipes>). The username and password are _optional_. if all your recipes are public you don't need to sign in.
+
+### Examples
+
+```sh
+# Fetch recipes without signing in:
+node index.js https://www.brewtoad.com/users/45285/recipes
+
+# Fetch recipes as a signed in user:
+node index.js https://www.brewtoad.com/users/45285/recipes user@example.com supersecret123
+```
 
 ## Limitations
 
